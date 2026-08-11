@@ -76,7 +76,7 @@ The project included a structured data-quality process before analysis:
 The original dataset was normalized into a **Star Schema** to improve organization and support efficient analytical reporting.
 
 <p align="center">
-  <img src="Assets/star-schema.jpg" alt="Hotel Booking Analysis Star Schema" width="900"/>
+  <img src="Assets/star-schema.png" alt="Hotel Booking Analysis Star Schema" width="900"/>
 </p>
 
 ### Fact Table
@@ -121,7 +121,7 @@ The model includes measures for key business metrics, including:
 ### Business Snapshot
 
 <p align="center">
-  <img src="Assets/overview.jpg" alt="Business Snapshot Dashboard" width="900"/>
+  <img src="Assets/business-snapshot.png" alt="Business Snapshot Dashboard" width="900"/>
 </p>
 
 The hotel generated **$42.72M** in revenue with an ADR of **$101.79**. The **37% cancellation rate** represents a major source of revenue leakage, while only **3.2%** of guests are repeat customers. Demand is strongly seasonal, peaking in August at approximately **13.9K bookings**.
@@ -131,7 +131,7 @@ The hotel generated **$42.72M** in revenue with an ADR of **$101.79**. The **37%
 ### Sales & Business Performance
 
 <p align="center">
-  <img src="Assets/sales-business-insights.jpg" alt="Sales and Business Insights Dashboard" width="900"/>
+  <img src="Assets/sales-insights.png" alt="Sales and Business Insights Dashboard" width="900"/>
 </p>
 
 City Hotel generated approximately **79K bookings and $25M revenue**, compared with **40K bookings and $17M revenue** for Resort Hotel. OTAs generated approximately **$23.94M**, substantially more than direct bookings at **$5.09M**.
@@ -141,7 +141,7 @@ City Hotel generated approximately **79K bookings and $25M revenue**, compared w
 ### Customer Demographics & Behavior
 
 <p align="center">
-  <img src="Assets/customer-insights.jpg" alt="Customer Demographics and Behavior Dashboard" width="900"/>
+  <img src="Assets/customer-insights.png" alt="Customer Demographics and Behavior Dashboard" width="900"/>
 </p>
 
 Portugal is the dominant market with **48,590 bookings**, followed by the UK with **12,129**. Adults account for the vast majority of guests, while Transient customers represent **75.06%** of the customer mix.
@@ -151,7 +151,7 @@ Portugal is the dominant market with **48,590 bookings**, followed by the UK wit
 ### Cancellation Analysis
 
 <p align="center">
-  <img src="Assets/cancellation-analysis.jpg" alt="Cancellation Analysis Dashboard" width="900"/>
+  <img src="Assets/cancellation-analysis.png" alt="Cancellation Analysis Dashboard" width="900"/>
 </p>
 
 **67.14%** of cancellations are associated with `No Deposit` bookings. OTAs generate the highest cancellation volume, and Hotel 2 experiences approximately three times the cancellation volume of Hotel 1.
@@ -161,7 +161,7 @@ Portugal is the dominant market with **48,590 bookings**, followed by the UK wit
 ### Hotel Performance
 
 <p align="center">
-  <img src="Assets/hotel-performance.jpg" alt="Hotel Performance Dashboard" width="900"/>
+  <img src="Assets/hotel-performance.png" alt="Hotel Performance Dashboard" width="900"/>
 </p>
 
 Agent ID 9 generated **31,961 bookings** but also had **13,264 cancellations**. Bed & Breakfast is the dominant meal plan across both hotels, while approximately **37%** of top-of-funnel bookings are lost to cancellations.
@@ -184,13 +184,13 @@ Agent ID 9 generated **31,961 bookings** but also had **13,264 cancellations**. 
 
 The detailed project documentation covers data cleaning, validation, dimensional modeling, DAX measures, dashboard analysis, insights, and recommendations.
 
-📄 **[View Project Documentation](Documentation/Project_Documentation.pdf)**
+📄 **[View Project Documentation](Documentation/Documentation.pdf)**
 
 ## 🎤 Stakeholder Presentation
 
 The presentation summarizes the analytical process, dashboard findings, business insights, and recommendations in a stakeholder-ready format.
 
-📊 **[View Stakeholder Presentation](Presentation/Stakeholder_Presentation.pptx)**
+📊 **[View Stakeholder Presentation](Presentation/Hanover&Tyke.pptx)**
 
 ## 📊 Power BI Dashboard
 
