@@ -190,7 +190,7 @@ The detailed project documentation covers data cleaning, validation, dimensional
 
 The presentation summarizes the analytical process, dashboard findings, business insights, and recommendations in a stakeholder-ready format.
 
-📊 **[View Stakeholder Presentation](Presentation/Hanover_Tyke.pptx)**
+📊 **[View Stakeholder Presentation](Presentation/Hanover_Tyke.pdf)**
 
 ## 📊 Power BI Dashboard
 
