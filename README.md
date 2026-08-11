@@ -14,7 +14,7 @@ This project transforms hotel booking data into an interactive Power BI reportin
 
 The analysis covers revenue and booking performance, cancellation behavior, customer demographics, distribution channels, hotel performance, agent performance, meal-plan preferences, and seasonality.
 
-The project demonstrates an end-to-end analytics workflow including **data cleaning, validation, dimensional modeling, DAX measure development, dashboard design, insight generation, and stakeholder-focused storytelling**.
+The project demonstrates an end-to-end analytics workflow including **data ingestion, SQL Server integration, data cleaning, validation, dimensional modeling, DAX measure development, dashboard design, insight generation, and stakeholder-focused storytelling**.
 
 ## 🎯 Business Objectives
 
@@ -27,6 +27,20 @@ The project demonstrates an end-to-end analytics workflow including **data clean
 - Identify high-volume and high-risk agents.
 - Understand guest meal-plan preferences.
 - Translate analytical findings into practical business recommendations.
+
+## 🔄 Data & Analytics Workflow
+
+The project uses **SQL Server as the data source between the raw dataset and Power BI**.
+
+1. The original CSV dataset was imported into **SQL Server**.
+2. SQL Server was used to manage the data source and support the required queries efficiently.
+3. **Power BI was connected directly to SQL Server** rather than working from the raw CSV file.
+4. The data was cleaned, validated, and prepared for analysis.
+5. A normalized **Star Schema** was created in Power BI.
+6. DAX measures were developed for the business KPIs and analytical requirements.
+7. Interactive dashboards were built in Power BI for stakeholder reporting and decision-making.
+
+This workflow provided a more structured data pipeline and helped the model and queries work more efficiently and reliably as part of the reporting solution.
 
 ## 📊 Key Business Findings
 
@@ -128,6 +142,7 @@ Agent ID 9 generated **31,961 bookings** but also had **13,264 cancellations**. 
 
 ## 🛠️ Tools & Skills
 
+- **SQL Server** — Data ingestion, data-source management, and query layer
 - **Power BI** — Dashboard development and business intelligence
 - **Power Query** — Data cleaning and transformation
 - **DAX** — Analytical measures and KPIs
@@ -136,28 +151,6 @@ Agent ID 9 generated **31,961 bookings** but also had **13,264 cancellations**. 
 - **Data Visualization** — Interactive business dashboards
 - **Data Storytelling** — Stakeholder-focused reporting
 - **Business Analysis** — Translating findings into strategic recommendations
-
-## 📁 Repository Structure
-
-```text
-Hotel-Booking-Performance-Analysis/
-│
-├── README.md
-├── PowerBI/
-│   └── Hotel_Booking_Analysis.pbix
-├── Documentation/
-│   └── Project_Documentation.pdf
-├── Presentation/
-│   └── Stakeholder_Presentation.pptx
-├── Data/
-│   └── hotel_bookings.xlsx
-└── Assets/
-    ├── business-snapshot.png
-    ├── sales-performance.png
-    ├── customer-insights.png
-    ├── cancellation-analysis.png
-    └── hotel-performance.png
-```
 
 ## 📚 Documentation
 
@@ -179,6 +172,6 @@ The complete interactive Power BI report will be available in the `PowerBI/` dir
 
 **Eslam Ashraf** — Data Analyst focused on transforming data into actionable business insights.
 
-**Skills:** Power BI • DAX • Excel • SQL • Python • Data Visualization • Data Analysis
+**Skills:** Power BI • DAX • SQL Server • Excel • Python • Data Visualization • Data Analysis
 
 ### ⭐ If you find this project useful, consider starring the repository!
