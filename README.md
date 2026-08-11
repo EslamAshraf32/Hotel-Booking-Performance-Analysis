@@ -17,7 +17,7 @@ The analysis covers revenue and booking performance, cancellation behavior, cust
 The project demonstrates an end-to-end analytics workflow including **data ingestion, SQL Server integration, data cleaning, validation, dimensional modeling, DAX measure development, dashboard design, insight generation, and stakeholder-focused storytelling**.
 
 <p align="center">
-  <img src="Assets/dashboard-overview.jpg" alt="Hotel Booking Performance Analysis - Overview Dashboard" width="900"/>
+  <img src="Assets/Home.png" alt="Hotel Booking Performance Analysis - Overview Dashboard" width="900"/>
 </p>
 
 ## 🎯 Business Objectives
