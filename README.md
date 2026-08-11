@@ -1,7 +1,7 @@
 # 🏨 Hotel Booking Performance Analysis — Power BI
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Built%20with-Power%20BI%20%7C%20DAX%20%7C%20Power%20Query-blue?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Built%20with-Power%20BI%20%7C%20SQL%20Server%20%7C%20DAX%20%7C%20Power%20Query-blue?style=flat-square"/>
   <img src="https://img.shields.io/badge/Analysis-Hotel%20Performance%20%26%20Bookings-brightgreen?style=flat-square"/>
   <img src="https://img.shields.io/badge/Focus-Revenue%20%7C%20Cancellations%20%7C%20Customers%20%7C%20Operations-orange?style=flat-square"/>
 </p>
@@ -15,6 +15,10 @@ This project transforms hotel booking data into an interactive Power BI reportin
 The analysis covers revenue and booking performance, cancellation behavior, customer demographics, distribution channels, hotel performance, agent performance, meal-plan preferences, and seasonality.
 
 The project demonstrates an end-to-end analytics workflow including **data ingestion, SQL Server integration, data cleaning, validation, dimensional modeling, DAX measure development, dashboard design, insight generation, and stakeholder-focused storytelling**.
+
+<p align="center">
+  <img src="Assets/overview.jpg" alt="Hotel Booking Performance Analysis - Overview Dashboard" width="900"/>
+</p>
 
 ## 🎯 Business Objectives
 
@@ -71,6 +75,10 @@ The project included a structured data-quality process before analysis:
 
 The original dataset was normalized into a **Star Schema** to improve organization and support efficient analytical reporting.
 
+<p align="center">
+  <img src="Assets/star-schema.jpg" alt="Hotel Booking Analysis Star Schema" width="900"/>
+</p>
+
 ### Fact Table
 
 - `HotelBooking`
@@ -112,11 +120,19 @@ The model includes measures for key business metrics, including:
 
 ### Business Snapshot
 
+<p align="center">
+  <img src="Assets/overview.jpg" alt="Business Snapshot Dashboard" width="900"/>
+</p>
+
 The hotel generated **$42.72M** in revenue with an ADR of **$101.79**. The **37% cancellation rate** represents a major source of revenue leakage, while only **3.2%** of guests are repeat customers. Demand is strongly seasonal, peaking in August at approximately **13.9K bookings**.
 
 **Recommendations:** strengthen loyalty initiatives and use targeted winter campaigns, corporate packages, and seasonal promotions to reduce demand dips.
 
 ### Sales & Business Performance
+
+<p align="center">
+  <img src="Assets/sales-business-insights.jpg" alt="Sales and Business Insights Dashboard" width="900"/>
+</p>
 
 City Hotel generated approximately **79K bookings and $25M revenue**, compared with **40K bookings and $17M revenue** for Resort Hotel. OTAs generated approximately **$23.94M**, substantially more than direct bookings at **$5.09M**.
 
@@ -124,17 +140,29 @@ City Hotel generated approximately **79K bookings and $25M revenue**, compared w
 
 ### Customer Demographics & Behavior
 
+<p align="center">
+  <img src="Assets/customer-insights.jpg" alt="Customer Demographics and Behavior Dashboard" width="900"/>
+</p>
+
 Portugal is the dominant market with **48,590 bookings**, followed by the UK with **12,129**. Adults account for the vast majority of guests, while Transient customers represent **75.06%** of the customer mix.
 
 **Recommendations:** focus localized marketing on major markets and tailor positioning toward couples, solo travelers, and business professionals.
 
 ### Cancellation Analysis
 
+<p align="center">
+  <img src="Assets/cancellation-analysis.jpg" alt="Cancellation Analysis Dashboard" width="900"/>
+</p>
+
 **67.14%** of cancellations are associated with `No Deposit` bookings. OTAs generate the highest cancellation volume, and Hotel 2 experiences approximately three times the cancellation volume of Hotel 1.
 
 **Recommendations:** review deposit policies, investigate non-refundable cancellation behavior, and consider data-driven overbooking strategies for high-risk segments.
 
 ### Hotel Performance
+
+<p align="center">
+  <img src="Assets/hotel-performance.jpg" alt="Hotel Performance Dashboard" width="900"/>
+</p>
 
 Agent ID 9 generated **31,961 bookings** but also had **13,264 cancellations**. Bed & Breakfast is the dominant meal plan across both hotels, while approximately **37%** of top-of-funnel bookings are lost to cancellations.
 
