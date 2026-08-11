@@ -76,7 +76,7 @@ The project included a structured data-quality process before analysis:
 The original dataset was normalized into a **Star Schema** to improve organization and support efficient analytical reporting.
 
 <p align="center">
-  <img src="Assets/star-schema.png" alt="Hotel Booking Analysis Star Schema" width="900"/>
+  <img src="Assets/Star-schema.png" alt="Hotel Booking Analysis Star Schema" width="900"/>
 </p>
 
 ### Fact Table
